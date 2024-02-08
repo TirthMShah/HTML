@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FORM</title>
+</head>
+<body>
+    <marquee><h2>Sports Academy</h2></marquee>
+    <a href="#comment">Click Here</a>
+
+    <form>
+        <fieldset>
+            <legend>Full Name</legend>
+            <label>First Name: </label>
+            <input type="text" placeholder="Enter First Name..." required>
+
+            <label for="Name2">Last Name: </label>
+            <input type="text" id="Name2" placeholder="Enter Last Name...">
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Details</legend>
+            <label for="Phone">Phone Number :</label>
+            <input type="tel" id="Phone">
+            <input type="tel" id="Phone" placeholder="Alternate Number">
+            
+            <br>
+            <br>
+            <label>EMail :</label>
+            <input type="email" id="email" placeholder="abcd@example.com">
+
+            <br>
+            <br>
+
+            <label for="date">Date of Birth :</label>
+            <input type="date" id="date">
+            
+            <br>
+            <br>
+
+            <spam>Gender : </spam>
+            <input type="radio" name="Gender" id="radio">
+            <label for="radio">Male</label>
+            
+            <input type="radio" name="Gender" id="radio1">
+            <label for="radio1">Female</label>
+            
+            <input type="radio" name="Gender" id="radio3">
+            <label for="radio3">Other</label>
+            
+            <br>
+            <br>
+
+            <spam>Language : </spam>
+            <label for="Check">English</label>
+            <input type="checkbox" name="Check" id="Check">
+           
+            <label for="Check11">Gujarati</label>
+            <input type="checkbox" name="Check" id="Check11">
+
+            <label for="Check1">Hindi</label>
+            <input type="checkbox" name="Check" id="Check1">
+        </fieldset>
+        
+        <br>
+            
+        <label for="Password">Password: </label>
+        <input type="password" id="password" placeholder="Enter Strong Password..">
+        
+        <br>
+        <br>
+
+        <label for="STD">Standard : </label>
+        <input type="number" min="5" max="12" id="STD">
+
+        <br>
+        <br>
+
+        <label for="Sports">Sports You Like : </label>
+        <select id="Sports">
+            <optgroup label="Gujarat">
+            <option value="none"disabled selected hidden>--select</option>
+            <option value="Cricket">Cricket</option>
+            <option value="Football">FootBall</option>
+            <option value="Kabaddi">Kabaddi</option>
+            <option value="VolleyBall">VolleyBall</option>
+            <option value="Tennis">Tennis</option>
+            <option value="TableTennis">Table Tennis</option>
+            <option value="Swim">Swimming</option>
+            <option value="Golf">Golf</option>
+        </select>
+    </optgroup>
+
+        <br>
+        <br>
+
+        <label for="Doc">Documents : </label>
+        <input type="file" name="Document" id="Doc">
+        <br>
+        <br>
+
+        <label><Big>Image : </Big></label>
+        <br>
+        <input type="image" src="Screenshot (15).png" alt="Hello" width="400px" height="240px">
+
+        <br>
+        <br>
+
+        <label for="comment">Send your Feedback</label>
+        <br>
+        <textarea id="comment" placeholder="Feedback" cols="50" rows="10" name="Hello"></textarea> 
+        <br>
+        <br>
+        <input type="submit" value="Submit" >
+        <input type="reset" value="Reset">
+
+        
+    </form>
+</body>
+</html>
